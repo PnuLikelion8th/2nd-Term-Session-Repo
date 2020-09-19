@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {% for letter in letters %}
+        <a href="{% url 'detail' letter.id %}">디테일 페이지</a>
+        {{letter.id}}
+        {{letter.title}} <br>
+        {{letter.sender}} <br>
+        {{letter.content}} <hr>
+
+        <a href="{% url 'delete' letter.id %}">삭제</a>
+    {% endfor %}
+
+    <a href="{% url 'create' %}">편지 쓰기</a>
+
+</body>
+</html>
