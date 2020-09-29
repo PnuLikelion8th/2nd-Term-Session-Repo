@@ -31,5 +31,6 @@
 
 # curriculum
 
-- [o] django CBV
-- [x] preparing...
+- [x] django CBV
+- [x] data visualization with seaborn
+- [] preparing...
