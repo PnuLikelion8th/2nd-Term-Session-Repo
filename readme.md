@@ -29,4 +29,5 @@
 - [x] django CBV
 - [x] data visualization with seaborn
 - [x] JS AJAX and DOM control
+- [x] DRF X REACT
 - [ ] preparing...
